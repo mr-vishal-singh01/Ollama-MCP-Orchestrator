@@ -5,7 +5,7 @@ This repository contains an advanced Python orchestrator that connects a local O
 ## Features
 - **Multi-Server Hub:** Automatically loads all MCP servers configured in your environment.
 - **Autonomous AUTO Mode:** Optionally allows the AI core to chain tool calls indefinitely without manual confirmation.
-- **Context Protection:** Smart truncation of extremely large CLI outputs (e.g., from Nmap, Nuclei, Masscan) to prevent ELM memory overflow.
+- **Context Protection:** Smart truncation of extremely large CLI outputs (e.g., from Nmap, Nuclei, Masscan) to prevent LLM memory overflow.
 - **Safety First:** Includes a manual confirmation loop for all system commands to ensure safe execution.
 
 ## Hardware Requirements & Performance
@@ -34,7 +34,7 @@ You can still test and run this architecture on older, low-end hardware by using
 3. Update the `MODEL` variable in `agent.py` to match your downloaded model.
 4. Run the agent:
 
-``bash
+```bash
 cd Ollama-MCP-Orchestrator
 python3 agent.py
 ```
