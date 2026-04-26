@@ -1,3 +1,9 @@
+> [!WARNING]  
+> **LEGAL DISCLAIMER & EDUCATIONAL PURPOSE ONLY**  
+> This project and all associated scripts are intended strictly for **educational, research, and defensive purposes**.  
+> Do not use these tools, scripts, or AI configurations on any network, system, or device for which you do not have **explicit, authorized permission**.  
+> The creator, contributors, and maintainers of this repository are not responsible for any misuse, damage, or illegal activities caused by the use of this software. Always abide by local, state, and international laws.
+
 <div align="center">
 
 # 🚀 Ollama MCP Orchestrator 
